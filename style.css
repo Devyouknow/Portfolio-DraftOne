@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #000000;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  .header p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Portfolio Section */
+  .portfolio .image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .portfolio img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Testimonial Section */
+  .testimonials {
+    margin-top: 40px;
+  }
+  h2{ 
+    color: #ddd;
+  }
+  .testimonials .testimonial {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .testimonials .testimonial p {
+    font-size: 1em;
+    color: #000000;
+  }
+  
+  .testimonials .testimonial span {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #000000;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    color: #fff;
+    margin-top: 40px;
+  }
+  
